@@ -1,0 +1,25 @@
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slide-left {
+  animation: slideIn 0.4s;
+}
+
+.slide-right {
+  animation: slideOut 0.4s;
+}
