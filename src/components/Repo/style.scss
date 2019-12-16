@@ -1,0 +1,25 @@
+.repo {
+  border-bottom: 1px solid #c3c0c5;
+  padding: 2.5rem 0;
+
+  &__title,
+  &__permissions,
+  &__description,
+  &__information {
+    padding-bottom: 0.5rem;
+  }
+  &__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #939393;
+
+    a {
+      color: #ec174d;
+    }
+  }
+
+  &__permissions {
+    color: #939393;
+  }
+}

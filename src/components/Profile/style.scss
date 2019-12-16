@@ -1,0 +1,21 @@
+.profile {
+  padding-bottom: 3.8rem;
+
+  &__title {
+    font-size: 2.5rem;
+  }
+  &__sub-title {
+    color: #939393;
+    font-size: 1.875rem;
+    padding: 0.7rem 0 2.2rem 0;
+  }
+  &__blog {
+    margin: 1.4rem 0;
+    color: #ec174d;
+  }
+  &__description {
+    font-size: 1.25rem;
+    padding-top: 2.95rem;
+    line-height: 2rem;
+  }
+}

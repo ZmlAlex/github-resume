@@ -1,0 +1,24 @@
+.language {
+  flex: 1;
+  flex-basis: 180px;
+  max-width: 180px;
+  // width: 150px;
+  padding: 0.5rem 0.7rem 0.5rem 0;
+
+  &__title {
+    margin-bottom: 0.3rem;
+    color: #ec174d;
+  }
+}
+
+.progress-bar {
+  height: 7px;
+  background-color: #f5f7fa;
+  border-radius: 3.5px;
+
+  &__line {
+    background-color: #d8d8d8;
+    border-radius: 3.5px;
+    height: inherit;
+  }
+}

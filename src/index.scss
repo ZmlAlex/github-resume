@@ -1,9 +1,15 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  display: flex;
-  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  // display: flex;
 }
 
 #root {
@@ -11,15 +17,40 @@ body {
   width: 100%;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
-  margin: 0 auto;
-  max-width: 1200px;
-  min-height: 100vh;
-  padding: 1.5rem;
+  width: 100%;
+  max-width: 957px;
+
+  &__big {
+    max-width: 1111px;
+  }
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+input {
+  background: none;
+  border: 0;
+  outline: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 768px) {
   .container {
-    padding: 0.375rem;
+    // padding: 0.375rem;
   }
 }

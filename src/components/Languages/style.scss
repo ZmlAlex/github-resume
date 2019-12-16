@@ -1,0 +1,15 @@
+.languages {
+  padding-bottom: 2rem;
+
+  &__title {
+    font-weight: bold;
+    font-size: 1.75rem;
+    padding-bottom: 2rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
