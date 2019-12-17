@@ -4,7 +4,7 @@ import './style.scss';
 export default function Title() {
   return (
     <div className="title">
-      <h1>My GitHub Resume</h1>
+      <h1>My Github Resume</h1>
     </div>
   );
 }

@@ -6,7 +6,7 @@ const getUserData = async id => {
 };
 
 const getUserRepos = async id => {
-  const data = await API.get(`/search/repositories?q=+user:${id}&sort=stars&order=desc&per_page=5`);
+  const data = await API.get(`/search/repositories?q=+user:${id}&sort=stars&order=desc`);
   return data;
 };
 

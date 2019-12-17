@@ -20,21 +20,39 @@
   &__form {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     font-size: 1.25rem;
+    justify-content: center;
 
     input {
       font-size: 1.25rem;
       flex: 2;
+      min-width: 265px;
       border-bottom: 1px solid #d8d8d8;
     }
 
     button {
+      margin-top: 1rem;
       margin-left: 0.6rem;
-      padding: 0.6rem 5rem;
+      padding: 0.6rem 5.2rem;
       color: #ffffff;
       background-color: #ec174d;
       box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
       border-radius: 22.5px;
+    }
+  }
+}
+
+@media screen and (max-width: 514px) {
+  .search {
+    &__content {
+      padding: 2.5rem 1rem 2.5rem 1rem;
+    }
+
+    &__form {
+      button {
+        margin-left: 0;
+      }
     }
   }
 }

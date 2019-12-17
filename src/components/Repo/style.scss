@@ -1,6 +1,11 @@
 .repo {
   border-bottom: 1px solid #c3c0c5;
-  padding: 2.5rem 0;
+  padding: 2.3rem 0 3.05rem 0;
+  font-size: 1.25rem;
+
+  a {
+    color: #ec174d;
+  }
 
   &__title,
   &__permissions,
@@ -13,13 +18,16 @@
     flex-direction: row;
     justify-content: space-between;
     color: #939393;
+    font-size: 1.5rem;
 
-    a {
-      color: #ec174d;
+    p {
+      flex-basis: 127px;
+      text-align: right;
     }
   }
 
   &__permissions {
     color: #939393;
+    // font-size: 1.25rem;
   }
 }

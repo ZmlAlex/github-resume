@@ -10,6 +10,7 @@
     padding: 0.7rem 0 2.2rem 0;
   }
   &__blog {
+    font-size: 1.25rem;
     margin: 1.4rem 0;
     color: #ec174d;
   }
@@ -17,5 +18,9 @@
     font-size: 1.25rem;
     padding-top: 2.95rem;
     line-height: 2rem;
+
+    a {
+      color: #ec174d;
+    }
   }
 }

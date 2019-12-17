@@ -1,11 +1,18 @@
+@import 'globalStyles/variables';
+
 html {
   height: 100%;
+  // font-size: calc(0.5em + 0.5vw);
 }
-body {
-  min-height: 100%;
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 12px;
+  }
 }
 
 body {
+  min-height: 100%;
   margin: 0;
   padding: 0;
   font-family: 'Ubuntu', sans-serif;
@@ -49,8 +56,13 @@ input {
   padding: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .container {
-    // padding: 0.375rem;
-  }
+a {
+  text-decoration: none;
+}
+
+.disabled {
+  color: #939393;
+  pointer-events: none;
+  cursor: default;
+  cursor: not-allowed;
 }

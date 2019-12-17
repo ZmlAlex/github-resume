@@ -11,10 +11,8 @@ export default function Search({ handleUserProfile }) {
 
   const handleSumbit = e => {
     e.preventDefault();
-    console.log('SUBMITTED');
-    //here will be func for request
     handleUserProfile(userName);
-    setUserName('');
+    setUserName(userName.trim());
   };
 
   return (
@@ -23,7 +21,7 @@ export default function Search({ handleUserProfile }) {
         <div className="search__content">
           <p className="search__title">Github Username</p>
           <form className="search__form" onSubmit={handleSumbit}>
-            <input onChange={handleChange} value={userName} placeholder="John Doe" />
+            <input onChange={handleChange} value={userName} placeholder="John Doe" required />
             <button type="submit"> Generieren </button>
           </form>
         </div>

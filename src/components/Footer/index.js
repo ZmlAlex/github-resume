@@ -1,5 +1,10 @@
 import React from 'react';
+import './style.scss';
 
 export default function Footer() {
-  return <div className="footer">Exozet 2019</div>;
+  return (
+    <footer className="footer">
+      <p>© exozet 2019</p>
+    </footer>
+  );
 }

@@ -9,7 +9,7 @@ export default function List({ repos, languages, currentProfile }) {
     <div className="container">
       <div className="list">
         <Profile currentProfile={currentProfile} />
-        <Languages languages={languages} />
+        <Languages login={currentProfile.login} languages={languages} />
         <Repos repos={repos} />
       </div>
     </div>
