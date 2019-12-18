@@ -18,8 +18,6 @@ In the project directory, you can run:
 
 In root directory
 
-### Create .env file according to .env-example
-
 ### `npm install`
 
 ## Development mode
@@ -35,6 +33,5 @@ You will also see any lint errors in the console.
 
 ### `npm run build`
 
-### `npm run prod`
+### `serve -s build`
 
-Open [http://localhost:3002](http://localhost:3002) to view it in the browser.
