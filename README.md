@@ -10,13 +10,9 @@ In the project directory, you can run:
 
 ### `npm run build`
 
+### 'npm run prod'
+
 ### `npm test`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
 ## How to START
 
@@ -26,6 +22,19 @@ In root directory
 
 ### `npm install`
 
+## Development mode
+
 ### `npm start`
 
-If you want to use mock data - please, use REACT_APP_BUILD = development in .env file
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+## Production mode
+
+### `npm run build`
+
+### `npm run prod`
+
+Open [http://localhost:3002](http://localhost:3002) to view it in the browser.

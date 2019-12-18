@@ -17,9 +17,9 @@ export default function Profile({ currentProfile = {} }) {
         {currentProfile.blog || 'no web-site provided'}
       </a>
       <p className="profile__description">
-        On GitHub since {parseInt(currentProfile.created_at) || 'here will be year'},
-        {currentProfile.name || currentProfile.login || 'here will be name'} is a developer based in{' '}
-        {currentProfile.location || 'here will be location'} with{' '}
+        On GitHub since {parseInt(currentProfile.created_at)},
+        {currentProfile.name || currentProfile.login} is a developer{' '}
+        {currentProfile.location && `based in ${currentProfile.location}`} with{' '}
         <a
           href={`https://github.com/${currentProfile.login}?tab=repositories`}
           target="_blank"
