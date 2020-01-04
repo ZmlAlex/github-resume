@@ -1,10 +1,4 @@
 .language {
-  flex: 1;
-  flex-basis: 170px;
-  max-width: 170px;
-  padding: 0.5rem 0 0.81rem 0;
-  margin-right: 0.9rem;
-
   &__title {
     display: block;
     font-size: 1.25rem;
@@ -25,8 +19,8 @@
   }
 }
 
-@media screen and (max-width: 430px) {
-  .language {
-    max-width: 100%;
-  }
-}
+// @media screen and (max-width: 430px) {
+//   .language {
+//     max-width: 100%;
+//   }
+// }
